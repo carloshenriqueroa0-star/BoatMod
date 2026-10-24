@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" T ", " S ", " T "],
+  "key": {
+    "T": { "item": "minecraft:oak_planks" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "boatmod:oar", "count": 1 }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.boatmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "boatmod.refmap.json",
+  "mixins": [
+    "BoatMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

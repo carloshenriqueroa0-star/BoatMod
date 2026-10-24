@@ -1,0 +1,7 @@
+#!/bin/sh
+# Stub gradlew - Substitua pelo wrapper real do Fabric Template
+# Baixe o template completo em: https://fabricmc.net/develop/
+# Ou rode: curl -o fabric-example-mod.zip https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.20.1.zip
+echo "Para obter o gradlew real, baixe o Fabric Example Mod 1.20.1 em https://fabricmc.net/develop/"
+echo "Descompacte e copie os arquivos gradlew, gradlew.bat e pasta gradle/ para este projeto."
+echo "Depois rode: ./gradlew build"

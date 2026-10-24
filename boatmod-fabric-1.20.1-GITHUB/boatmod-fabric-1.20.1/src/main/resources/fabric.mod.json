@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "boatmod",
+  "version": "${version}",
+  "name": "BoatMod - Barco Personalizável",
+  "description": "Personalize seu barco no Minecraft! Adicione até 12 remos clicando com o botão direito e instale propulsores de baiacu para soltar jatos de vento. Quanto mais remos, mais rápido!",
+  "authors": ["Voce"],
+  "contact": {
+    "homepage": "https://github.com/SEUUSERNAME/boatmod",
+    "sources": "https://github.com/SEUUSERNAME/boatmod",
+    "issues": "https://github.com/SEUUSERNAME/boatmod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/boatmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.boatmod.BoatModFabric"],
+    "client": ["com.boatmod.BoatModClient"]
+  },
+  "mixins": ["boatmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/SEUINVITE"
+      }
+    }
+  }
+}
